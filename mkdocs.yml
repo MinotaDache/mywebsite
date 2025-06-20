@@ -1,0 +1,96 @@
+site_name: Minota Matewos Dache's Website
+site_url: https://minobotics.com
+theme:
+  name: material
+  logo: assets/minobLOGO.png
+  icon:
+    logo: material/
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  palette: 
+
+
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+
+
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - content.icons
+
+
+nav:
+  - About: about.md 
+  - Projects: Projects.md
+  - Blogs:
+    - blog/index.md
+  - Contact: contacts.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/your-profile
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+    - icon: fontawesome/solid/envelope
+      link: mailto:you@example.com
+
+plugins:
+  - blog
+  - search
+  - tags
+
+extra:
+  homepage: https://minobotics.com
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:minotadache@gmail.com
+      name: Minota's Email
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/minotadache/
+      name: Minota's LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/MinotaDache/
+      name: Minota's GitHub
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@engineering_design
+      name: Minota's YouTube
+  generator: false
+  scope: /
+
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/styles.css
+
+copyright: Copyright &copy; 2024 - 2025 Minota Matewos Dache
