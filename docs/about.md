@@ -23,7 +23,7 @@ Hi, I'm Minota! I am a dedicated roboticist with a background in control, roboti
 
 
 
-:material-file-document:  [My CV](../assets/CV%20basic%20Minota%20M%20Dache.pdf)  
+:material-file-document:  [My CV](assets/CVMinotaMDache.pdf)  
 :material-folder-open:  [My Portfolio](Projects.md)  
 :octicons-mail-24:  [For Enquiries](mailto:minotadache@gmail.com)
 

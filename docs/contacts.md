@@ -12,7 +12,7 @@ If you'd like to connect, collaborate, or learn more about my work in robotics a
 
 - :material-gmail:  [E-mail](mailto:minotadache@gmail.com)
 - :simple-github:   [GitHub](https://github.com/MinotaDache/)
-- :material-file-document:  [Resume PDF](../assets/CV%20basic%20Minota%20M%20Dache.pdf)
+- :material-file-document:  [Resume PDF](assets/CVMinotaMDache.pdf)
 - :fontawesome-brands-linkedin: [LinkedIn](https://linkedin.com/in/minotadache/)
 ---
 
