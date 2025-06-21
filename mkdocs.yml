@@ -80,7 +80,7 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@engineering_design
       name: Minota's YouTube
-  generator: false
+
   scope: /
 
 
