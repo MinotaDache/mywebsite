@@ -2,6 +2,7 @@ site_name: Minota Matewos Dache's Website
 site_url: https://mydomain.org/mysite
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/minobLOGO.png
   icon:
     logo: material/
@@ -43,13 +44,14 @@ theme:
     - search.suggest
     - content.icons
 
-
 nav:
-  - About: about.md 
+  - Home: index.md
+  - About: about.md
   - Projects: Projects.md
   - Blogs:
-    - blog/index.md
+    - Blog Index: blog/index.md
   - Contact: contacts.md
+
 
 extra:
   social:

@@ -1,0 +1,40 @@
+{% extends "main.html" %}
+
+{% block content %}
+
+<!-- Hero Section -->
+<section class="hero" style="text-align: center; padding: 4rem 1rem;">
+  <img src="assets/minobLOGO.png" alt="Minota Logo" width="120" style="border-radius: 50%;">
+  <h1 style="font-size: 2.5rem; margin-top: 1rem;">Minota Matewos Dache</h1>
+  <p style="font-size: 1.2rem; color: #666;">Robotics & Automatic Control Engineer</p>
+  <div style="margin-top: 1.5rem;">
+    <a href="Projects/" class="md-button md-button--primary">My Projects</a>
+    <a href="blog/" class="md-button">My Blog</a>
+  </div>
+</section>
+
+<!-- Introduction -->
+<section class="intro" style="max-width: 700px; margin: 4rem auto; text-align: center;">
+  <p>
+    I'm a robotics and autonomous systems engineer passionate about fusing perception, control, and AI to build intelligent, real-world robotic systems. 
+    With experience in LiDAR-camera fusion, ROS 2, and multi-robot coordination, I build systems that sense, decide, and act robustly in complex environments.
+  </p>
+</section>
+
+<!-- Section Cards -->
+<section class="cards" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin: 4rem 1rem;">
+  <a href="Projects/" class="card" style="text-align: center; width: 250px; padding: 2rem; border-radius: 1rem; background: #f9f9f9; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-decoration: none; color: inherit;">
+    <h3>🛠️ Projects</h3>
+    <p>See my work in autonomous navigation, control, and robotics software.</p>
+  </a>
+  <a href="blog/index/" class="card" style="text-align: center; width: 250px; padding: 2rem; border-radius: 1rem; background: #f9f9f9; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-decoration: none; color: inherit;">
+    <h3>📚 Blog</h3>
+    <p>Technical insights and tutorials on robotics, ROS 2, and AI.</p>
+  </a>
+  <a href="contacts.md" class="card" style="text-align: center; width: 250px; padding: 2rem; border-radius: 1rem; background: #f9f9f9; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-decoration: none; color: inherit;">
+    <h3>📬 Contact</h3>
+    <p>Get in touch for collaboration, questions, or opportunities.</p>
+  </a>
+</section>
+
+{% endblock %}
