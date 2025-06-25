@@ -66,6 +66,7 @@ plugins:
   - blog
   - search
   - tags
+  - meta-descriptions
 
 extra:
   homepage: https://minobotics.com
