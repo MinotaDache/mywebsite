@@ -7,6 +7,7 @@ tags:
   - Gazebo
   - ROS2
 summary: This is about creating custom world in gazebo.
+image: ../../assets/3dblockone.png 
 ---
 ## How to Create a Custom World in Gazebo for Your Robotics Simulation?
 
